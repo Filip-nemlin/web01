@@ -1,0 +1,26 @@
+div.parent{
+    background-color: aqua;
+    height: 100rem;
+    font-size:x-large;
+    padding: 1rem;
+}
+
+
+.child1{
+    background-color: magenta;
+    padding: 8px;
+    position: sticky;
+    top:0;
+}
+
+
+.child2{
+    background-color: red;
+    padding: 8px;
+}
+
+.child3{
+    background-color: yellow;
+    padding: 8px;
+}
+
