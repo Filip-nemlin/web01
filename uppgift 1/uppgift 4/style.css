@@ -1,0 +1,45 @@
+
+        .parent {
+            background-color: blue;
+            height: 200px;
+            width: 400px;
+        }
+    
+        .child {
+            background-color: red;
+            height: 50%;
+            width: 50%;
+            transition: transform 1s;
+        }
+        
+        .parent:hover > .child {
+            transform: translateX(100%);
+        
+
+        }
+
+        .primary-navigation {
+        display: flex;
+        margin-inline-end: 3rem;
+        flex-wrap: nowrap;
+        list-style-type: none;
+        gap: 2rem;
+        
+
+        }
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navlink{
+    text-decoration: none;
+}
+
+.picture{
+    display:flex;
+    justify-content: end;
+    margin: 3rem;
+}
+
