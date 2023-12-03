@@ -1,0 +1,12 @@
+.primary-navigation{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    gap: 3rem;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    margin-right: 5%;
+}
